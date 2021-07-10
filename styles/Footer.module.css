@@ -1,0 +1,21 @@
+.container {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.sociallinks {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.copyright {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
