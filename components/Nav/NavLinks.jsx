@@ -17,6 +17,9 @@ export default function NavLinks() {
       <li className={styles.navlink}>
         <Link href="/directions">Directions</Link>
       </li>
+      <li className={styles.navlink}>
+        <Link href="/gallery">Gallery</Link>
+      </li>
     </ul>
   );
 }

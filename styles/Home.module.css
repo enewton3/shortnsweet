@@ -14,9 +14,13 @@
 }
 
 .linkContainer {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  grid-template-columns: 50% 50%;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 .menuLink,

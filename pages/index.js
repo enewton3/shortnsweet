@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <div className={styles.header}>
-        Short 'N Sweet <br />
+        Short 'N' Sweet * <br />
         At the Old South Chatham Schoolhouse
         <div className={styles.linkContainer}>
           <div className={styles.menuLink}>
@@ -21,6 +21,9 @@ export default function Home() {
           </div>
           <div className={styles.directionsLink}>
             <Link href="/directions">Directions</Link>
+          </div>
+          <div className={styles.directionsLink}>
+            <Link href="/gallery">Gallery</Link>
           </div>
         </div>
         <div>Hours: 11am to 9:30pm daily</div>
