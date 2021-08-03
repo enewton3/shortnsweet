@@ -1,4 +1,3 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import NavLinks from "../components/Nav/NavLinks";
 import Link from "next/link";
