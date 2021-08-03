@@ -1,5 +1,67 @@
 .menu {
-  background: lightblue;
-  height: 100vh;
-  width: 100vw;
+  background: #dac058;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuHead {
+  margin: 0vh 0 1vh 0;
+}
+
+.menuContainer {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flavors {
+  border: 2px solid chartreuse;
+  display: grid;
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* flex-flow: column wrap; */
+  /* justify-content: space-evenly; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(auto-fill);
+  justify-items: center;
+  width: 100%;
+}
+
+.toppings {
+  border: 2px solid black;
+}
+
+.shakes {
+  border: 2px solid purple;
+}
+
+.sundaes {
+  border: 2px solid green;
+}
+
+.pricing {
+  border: 2px solid hotpink;
+}
+
+.pairContainer {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.menuHeader {
+  margin: 1vh 0 1vh 0;
+}
+
+.menuList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menuItem {
+  margin: 0;
+  font-size: 0.8rem;
 }

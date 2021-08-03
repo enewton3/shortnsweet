@@ -11,6 +11,9 @@
   list-style: none;
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 0 1vh 1vw;
+  padding: 0;
 }
 
 .copyright {
@@ -18,4 +21,5 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 1vw 1vh 0;
 }

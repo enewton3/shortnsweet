@@ -6,12 +6,12 @@ export default function SocialLinks() {
   return (
     <ul className={styles.sociallinks}>
       <li>
-        <a href="">
+        <a href="https://www.facebook.com/shortnsweetchatham/">
           <FacebookIcon />
         </a>
       </li>
       <li>
-        <a href="">
+        <a href="https://www.instagram.com/shortnsweet_official/">
           <InstagramIcon />
         </a>
       </li>

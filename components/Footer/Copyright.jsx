@@ -4,7 +4,7 @@ import styles from "../../styles/Footer.module.css";
 export default function Copyright() {
   return (
     <div className={styles.copyright}>
-      <CopyrightIcon /> ShortNSweet 2021
+      <CopyrightIcon /> 2021 Short 'N' Sweet*
     </div>
   );
 }

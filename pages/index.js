@@ -6,8 +6,12 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <div className={styles.header}>
-        Short 'N' Sweet * <br />
-        At the Old South Chatham Schoolhouse
+        <div> Short 'N' Sweet *</div>
+        <div>At the Old South Chatham Schoolhouse</div>
+        <div>Hours: 11am to 9:30pm daily</div>
+        <div>Open from Mother's Day through Columbus Day</div>
+        <div>CASH ONLY!</div>
+        <div>{"(We have an ATM inside)"}</div>
         <div className={styles.linkContainer}>
           <div className={styles.menuLink}>
             <Link href="/menu">Menu</Link>
@@ -25,8 +29,6 @@ export default function Home() {
             <Link href="/gallery">Gallery</Link>
           </div>
         </div>
-        <div>Hours: 11am to 9:30pm daily</div>
-        <div>Open from 15th May through 15th October</div>
       </div>
     </main>
   );
